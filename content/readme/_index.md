@@ -2,7 +2,7 @@
 title: "readme"
 date: 2019-06-17T23:20:06+02:00
 draft: false
-intro: "My collection of personal notes about my development jurney in code and life; mostly in code."
+intro: "My collection of personal notes about my development journey in code and life; mostly in code."
 ---
 
 This is not a log, blog or anything like that. This is only a place for me to store everything I have in my mind so I don't forget important things. Things like:
