@@ -1,4 +1,4 @@
-baseURL = "http://magnus.dev/"
+baseURL = "//magnus.dev/"
 languageCode = "en-us"
 title = "Magnus.dev"
 theme = "frdh"
