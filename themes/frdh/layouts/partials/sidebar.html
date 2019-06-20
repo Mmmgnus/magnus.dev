@@ -1,0 +1,12 @@
+<nav class="sub-navigation">
+    <ul>
+        <ul>
+            {{ $items := union .Pages .Sections }}
+            {{ range $items}}
+            <li>
+                <a href="{{.Permalink}}">{{.Title}}</a>
+            </li>
+            {{end}}
+        </ul>
+    </ul>
+</nav>

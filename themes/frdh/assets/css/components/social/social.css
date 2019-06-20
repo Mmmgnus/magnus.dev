@@ -1,0 +1,26 @@
+.social {
+    list-style: none;
+    line-height: 1;
+    margin: 0 -8px;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+.social > li {
+    margin:0 8px;
+    padding: 0;
+}
+
+.social a {
+    display: block;
+}
+
+.social svg {
+    fill: rgba(146, 183, 242, 0.25);
+    transition: fill 300ms linear;
+}
+
+.social a:hover svg {
+    /* fill: rgba(255,255,255,1); */
+    fill: #BF3FB2;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "magnus-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "install": "^0.12.2",
+    "npm": "^6.9.0",
+    "postcss-cli": "^6.1.2",
+    "postcss-import": "^12.0.1"
+  }
+}

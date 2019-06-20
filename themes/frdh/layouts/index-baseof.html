@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html style="background-color: #001319;">
+<head>
+    {{- partial "head.html" . -}}
+
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+    
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .readme-link {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.3);
+            text-decoration: none;
+            font-family: inter;
+        }
+    
+        .readme-link:hover {
+            color: rgba(255, 255, 255, 1);
+        }
+    
+        /* I want the selected text background to be more visible on the dark background. */
+        ::selection {
+            background: rgba(191, 63, 178, 0.3);
+        }
+    
+        ::-moz-selection {
+            background: rgba(191, 63, 178, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    {{- block "main" . }}{{- end }}
+</body>
+
+</html>

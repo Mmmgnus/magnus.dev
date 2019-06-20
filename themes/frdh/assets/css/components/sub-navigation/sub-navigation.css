@@ -1,0 +1,31 @@
+.sub-navigation {
+    grid-area: sidebar;
+}
+.sub-navigation {
+    margin-left: 12px;
+}
+.sub-navigation li {
+    padding: 0;
+    margin-bottom: 0.5em;
+}
+.sub-navigation strong {
+    border-left: 4px solid #219E2C;
+    padding-left: 8px;
+    margin-left:-12px;
+    display: block;
+}
+
+.text a,
+.sub-navigation a {
+    color: #219E2C;
+    text-decoration: none;
+    box-shadow: inset 0 -2px 0 0 rgba(33, 158, 44, 0.2);
+    transition: box-shadow 300ms linear;
+}
+
+.text a:hover,
+.sub-navigation a:hover,
+.text a:focus,
+.sub-navigation a:focus {
+    box-shadow: inset 0 -2px 0 0 rgba(33, 158, 44, 0.8);
+}

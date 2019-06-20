@@ -1,0 +1,38 @@
+.text li {
+    margin-bottom: 0.5em;
+}
+
+.text .left {
+    float: left;
+    margin-right: 1em;
+}
+
+.text code {
+    border-bottom: 1px solid rgba(146, 183, 242, 0.4);
+    font-family: monaco;
+    font-size: 0.87em;
+    background-color: rgba(146, 183, 242, 0.2);
+    padding: 0.15em;
+}
+
+.text .code-block {
+    font-size: 1.1em;
+    background: rgba(0, 19, 25, 1);
+    display: block;
+    padding: 0.5em 2em;
+    margin-bottom: 1em;
+    /* color: rgba(0, 19, 25, 0.8); */
+    color: rgba(146, 183, 242, 0.9);
+}
+
+.text mark {
+    background-color: rgba(242, 211, 146, 0.5);
+    border-bottom: 1px solid rgba(242, 211, 146, 1);
+    color: rgb(66,47,8);
+    padding: 0.15em 0.25em;
+}
+
+.intro {
+    font-size: 1.5em;
+    font-weight: 200;
+}

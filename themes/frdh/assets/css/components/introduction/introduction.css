@@ -1,0 +1,31 @@
+
+.introduction {
+    max-width: 523px;
+    margin: 0 auto;
+    font-family: 'Rockeby-condensed-bold';
+    font-size: 64px;
+    line-height: 1.3;
+    font-weight: normal;
+    color: #fff;
+}
+
+.introduction__avatar {
+    width: 273px;
+    margin: 0 auto;
+    display: block;
+}
+
+.introduction h1 {
+    font-size: 100px;
+    margin: 0;
+    line-height: 1;
+    letter-spacing: 1.3px;
+    font-style: italic;
+    color: #BF3FB2;
+    transform: translateX(0.5em);
+    margin-bottom: 0.15em;
+}
+
+.introduction__text p {
+    text-align: center;
+}

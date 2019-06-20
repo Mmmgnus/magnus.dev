@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main class="page-article">
+    {{- partial "sidebar.html" . -}}
+    <div class="article-heading">
+        <h2 class="h2">{{ .Title }}</h2>
+    </div>
+    <div class="article-content text">
+        {{ if .Params.intro }}
+            <div class="intro">
+                <p>{{ .Params.intro }}</p>
+            </div>
+        {{ end }}
+        
+        {{ .Content }}
+        
+    </div>
+</main>
+{{ end }}

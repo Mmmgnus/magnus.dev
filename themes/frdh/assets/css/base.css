@@ -1,0 +1,66 @@
+@import url("//hello.myfonts.net/count/39902b");
+@font-face {
+    font-family: 'Rockeby-condensed-bold';
+    font-style: normal;
+    src: url('../fonts/rockeby-condensed/39902B_0_0.eot');
+    src: url('../fonts/rockeby-condensed/39902B_0_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/rockeby-condensed/39902B_0_0.woff2') format('woff2'),
+        url('../fonts/rockeby-condensed/39902B_0_0.woff') format('woff'),
+        url('../fonts/rockeby-condensed/39902B_0_0.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Rockeby-condensed-bold';
+    font-style: italic;
+    src: url('../fonts/rockeby-condensed/39902B_1_0.eot');
+    src: url('../fonts/rockeby-condensed/39902B_1_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/rockeby-condensed/39902B_1_0.woff2') format('woff2'),
+        url('../fonts/rockeby-condensed/39902B_1_0.woff') format('woff'),
+        url('../fonts/rockeby-condensed/39902B_1_0.ttf') format('truetype');
+}
+
+@import url('https://rsms.me/inter/inter.css');
+html {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: #001319;
+}
+
+@supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif;  line-height: 1.5; font-size: 20px; letter-spacing: 0.5px;}
+}
+
+.h2 {
+    font-family: 'Rockeby-condensed-bold';
+    margin: 0;
+    font-size: 100px;
+    line-height: 1;
+    font-weight: normal;
+    margin-bottom: 0.5em;
+}
+img {
+    max-width: 100%;
+}
+ul {
+    margin: 0;
+}
+p {
+    margin:0 0 1em;
+}
+
+
+::selection {
+    color: #BF3FB2;
+    background: rgba(191, 63, 178,0.1);
+}
+
+::-moz-selection {
+    color: #BF3FB2;
+    background: rgba(191, 63, 178,0.1);
+}
+
+a::-moz-selection {
+    color:rgba(33, 158, 44, 1);;
+    background-color: rgba(33, 158, 44, 0.1);
+}
