@@ -21,14 +21,21 @@
 html {
     font-family: 'Inter', sans-serif;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 0.5px;
     color: #001319;
 }
 
 @supports (font-variation-settings: normal) {
-    html { font-family: 'Inter var', sans-serif;  line-height: 1.5; font-size: 20px; letter-spacing: 0.5px;}
+    html { font-family: 'Inter var', sans-serif;  line-height: 1.5; letter-spacing: 0.5px;}
 }
+
+@media only screen and (min-width: 901px) {
+    html {
+        font-size: 20px;
+    }
+}
+
 
 .h2 {
     font-family: 'Rockeby-condensed-bold';
