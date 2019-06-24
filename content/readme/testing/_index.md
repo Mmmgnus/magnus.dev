@@ -1,10 +1,9 @@
 ---
-title: "Testing"
-date: 2019-06-17T23:20:06+02:00
-draft: false
-intro: "Testing of everything"
----
+title: Testing
+date: 2019-06-17T21:20:06.000+00:00
+intro: Testing everything
 
+---
 ### What should we test?
 ### Requirements
 
