@@ -1,7 +1,7 @@
 ---
 title: "Testing"
 date: 2019-06-17T23:20:06+02:00
-draft: true
+draft: false
 intro: "Testing of everything"
 ---
 

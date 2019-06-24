@@ -7,7 +7,7 @@
     <div class="article-content text">
         {{ if .Params.intro }}
             <div class="intro">
-                <p>{{ .Params.intro }}</p>
+                <p>{{ .Params.intro | markdownify }}</p>
             </div>
         {{ end }}
         

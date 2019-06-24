@@ -6,7 +6,7 @@
     </div>
     <div class="article-content text">
         <div class="intro">
-            <p>{{ .Params.intro }}</p>
+            <p>{{ .Params.intro | markdownify}}</p>
         </div>
 
         {{ .Content }}
