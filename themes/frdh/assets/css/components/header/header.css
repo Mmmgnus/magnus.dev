@@ -1,17 +1,22 @@
 .c-header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 20px;
 }
 
 .c-header__avatar {
     margin-right: 16px;
+    flex-shrink: 0;
 }
 
 .c-header__avatar img {
     border-radius: 50%;
     overflow: hidden;
     width: 48px;
+}
+
+.c-header__navigation {
+    margin-top: 1em;
 }
 
 .c-header__navigation ul,
@@ -23,6 +28,7 @@
 
 .c-header__navigation ul {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .c-header__navigation li {
