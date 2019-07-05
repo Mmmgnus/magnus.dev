@@ -32,6 +32,11 @@
     padding: 0.15em 0.25em;
 }
 
+.text a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
 .intro {
     font-size: 1.5em;
     font-weight: 200;
