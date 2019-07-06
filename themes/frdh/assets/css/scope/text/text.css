@@ -7,7 +7,7 @@
     margin-right: 1em;
 }
 
-.text code {
+.text p code {
     border-bottom: 1px solid rgba(146, 183, 242, 0.4);
     font-family: monaco;
     font-size: 0.87em;
@@ -15,7 +15,7 @@
     padding: 0.15em;
 }
 
-.text .code-block {
+.text pre code {
     font-size: 1.1em;
     background: rgba(0, 19, 25, 1);
     display: block;
