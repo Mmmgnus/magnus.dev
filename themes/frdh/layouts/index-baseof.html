@@ -11,7 +11,6 @@
     
         body {
             display: flex;
-            align-items: center;
             justify-content: center;
         }
     
@@ -24,6 +23,12 @@
     
         .readme-link:hover {
             color: rgba(255, 255, 255, 1);
+        }
+
+        @media only screen and (min-width:900px) {
+            body {
+                align-items: center;
+            }
         }
     
         /* I want the selected text background to be more visible on the dark background. */
