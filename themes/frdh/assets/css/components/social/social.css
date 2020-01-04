@@ -1,10 +1,12 @@
 .social {
     list-style: none;
     line-height: 1;
-    margin: 0 -8px;
     padding:0;
     display: flex;
     justify-content: center;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
 }
 .social > li {
     margin:0 8px;
@@ -21,6 +23,5 @@
 }
 
 .social a:hover svg {
-    /* fill: rgba(255,255,255,1); */
-    fill: #BF3FB2;
+    fill: rgba(191,63,178, 1);
 }

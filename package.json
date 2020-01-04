@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "hugo server -D",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "install": "^0.12.2",
-    "npm": "^6.9.0",
+    "npm": "^6.13.4",
     "postcss-cli": "^6.1.2",
     "postcss-import": "^12.0.1"
   }
