@@ -3,8 +3,6 @@ title: "React"
 date: 2020-12-1T17:13:36+02:00
 draft: false
 ---
-# React
-
 ## State
 
 ### Change state when props has changed
