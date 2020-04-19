@@ -2,9 +2,8 @@
 title: "Links"
 date: 2020-04-15T18:22:00+02:00
 draft: false
+intro: I have tried many different bookmark storing solutions, but I always forget them and in the end they are full of old links. I will try to go back to the basic — Normal lists of links.
 ---
-
-I have tried many different bookmark storing solutions, but I always forget them and in the end they are full of old links. I will try to go back to the basic — Normal lists of links.
 
 ## Guidelines
 * All links need a short description.

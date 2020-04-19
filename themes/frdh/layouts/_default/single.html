@@ -1,5 +1,10 @@
 {{ define "main" }}
-<main class="page-article">
+{{ $items := union .Pages .Sections }}
+{{ $class := "page-article--no-sidebar" }}
+{{ if $items }}
+    {{ $class = "" }}
+{{ end }}
+<main class="page-article {{$class}}">
     {{- partial "sidebar.html" . -}}
     <div class="article-heading">
         <h2 class="h2">{{ .Title }}</h2>

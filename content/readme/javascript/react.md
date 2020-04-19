@@ -7,7 +7,8 @@ draft: false
 
 ### Change state when props has changed
 It is possible to update the local state when a prop is changed. 
-```
+
+```javascript
 componentWillRecieveProps (nextProps) {
 	if (nextProps.user.data.isFollowing !== this.props.user.data.isFollowing) {
 		this.setState({ loading: false})
@@ -17,7 +18,7 @@ componentWillRecieveProps (nextProps) {
 
 This example code comes from a scenario where a component has a button to start following the user. When pressed, the button displays a loading spinner. When the button is pressed the loading state change to true:
 
-```
+```javascript
 	onPressFollowHandler () {
     this.setState({ loading: true })
     this.props.onPressFollow()
@@ -34,7 +35,7 @@ Swiping gesture to swipe in content like buttons.
 Useful when you want to mimic the interaction on iOS and Android to remove list items.
 
 **Example:**
-```
+```javascript
 <Swipeable
 	ref={this.updateRef}
 	friction={2}

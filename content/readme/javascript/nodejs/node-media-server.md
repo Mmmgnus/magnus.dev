@@ -16,25 +16,27 @@ There is different ways to incorporate this library in your application, the rec
 
 First we need a folder,
 
-```
-> mkdir my-project-name
-```
+{{< terminal >}}
+  mkdir my-project-name
+{{< /terminal >}}
 
 Then we initialize NPM so that we can install our dependencies.
 
-```
-> npm init
-```
+{{< terminal >}}
+  npm init
+{{< /terminal >}}
 
 Time to install the node media server package from NPM
 
-```
-> npm install node-media-server
-```
+{{< terminal >}}
+  npm install node-media-server
+{{< /terminal >}}
+
+
 
 We are now ready to start writing some javascript code that will represent the media server.
 
-```
+```javascript
 const NodeMediaServer = require('node-media-server');
 
 const config = {
@@ -57,9 +59,9 @@ nms.run();
 
 Start the application
 
-```
-> node app.js
-```
+{{< terminal >}}
+  node app.js
+{{< /terminal >}}
 
 ### How to start streaming
 To test the media server we will need a video streaming application like OBS. Install it and open the settings. Find the tab called "Stream" and use the following settings:

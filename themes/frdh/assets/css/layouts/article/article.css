@@ -6,11 +6,18 @@
    .page-article {
         display: grid;
         grid-column-gap: 4em;
-        grid-template-columns: 25% auto;
+        grid-template-columns: 25% minmax(0, 1fr);
         grid-template-rows: 1fr auto;
         grid-template-areas: 
             ". article-head"
             "sidebar article-content";
+    }
+
+    .page-article--no-sidebar {
+        display: block;
+        max-width: 860px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .sub-navigation {

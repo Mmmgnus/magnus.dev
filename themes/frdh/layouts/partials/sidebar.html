@@ -1,10 +1,13 @@
-<nav class="sub-navigation">
-    <ul>
-        {{ $items := union .Pages .Sections }}
-        {{ range $items}}
-        <li>
-            <a href="{{.Permalink}}">{{.Title}}</a>
-        </li>
-        {{end}}
-    </ul>
-</nav>
+{{ $items := union .Pages .Sections }}
+{{ $items := union .Pages .Sections }}
+{{ with $items}}
+    <nav class="sub-navigation">
+        <ul>
+            {{ range $items }}
+            <li>
+                <a href="{{.Permalink}}">{{.Title}}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
+{{ end }}

@@ -1,3 +1,7 @@
+.text p {
+    line-height: 2;
+}
+
 .text li {
     margin-bottom: 0.5em;
 }
@@ -15,13 +19,14 @@
     padding: 0.15em;
 }
 
+.text pre {
+    background: rgba(0, 19, 25, 1);
+}
+
 .text pre code {
     font-size: 1.1em;
-    background: rgba(0, 19, 25, 1);
     display: block;
-    padding: 0.5em 2em;
-    margin-bottom: 1em;
-    /* color: rgba(0, 19, 25, 0.8); */
+    padding: 0.5em 1em;
     color: rgba(146, 183, 242, 0.9);
 }
 
@@ -35,10 +40,57 @@
 .text a {
     overflow-wrap: break-word;
     word-wrap: break-word;
+    word-break: break-all;
 }
 
 .intro {
     font-size: 1.5em;
     font-weight: 200;
 }
+
+.text .terminal {
+    font-family: monaco;
+    padding: 0.5em 1em;
+    color: rgba(146, 183, 242, 0.9);
+    background-color:#000;
+    margin-bottom: 1em;
+}
+
+.text .terminal::before {
+    content: '$';
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%
+    }
+}
+
+.text .terminal::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 4px;
+    background: rgba(146, 183, 242, 0.9);
+    vertical-align: text-bottom;
+    margin-left: -0.5em;
+    animation: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.text h1,
+.text h2,
+.text h3,
+.text h4 {
+    line-height: 1.3;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
 @import url("//hello.myfonts.net/count/39902b");
