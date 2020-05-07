@@ -50,6 +50,8 @@ Useful when you want to mimic the interaction on iOS and Android to remove list 
 #### Documentation
 https://software-mansion.github.io/react-native-gesture-handler/docs/component-swipeable.html
 
+## Issues & problems
+Collect all issues and problems that I had with React and how I solved them.
 
 
 
