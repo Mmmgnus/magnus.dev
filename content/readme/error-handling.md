@@ -17,7 +17,7 @@ Error codes should contain:
 
 I really like the structure Bing and the [RFC7807 standard](https://tools.ietf.org/html/rfc7807) uses, they use a link for the user to find out more information on how to solve the problem.
 
-**Bing has `help_link`:**
+**Bing has `HelpUrl`:**
 ```json
 {
 	"Errors":[{
