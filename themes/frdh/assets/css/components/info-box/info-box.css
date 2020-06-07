@@ -1,0 +1,28 @@
+.info-box {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.info-box__block {
+  background-color: #EFF4EA;
+  padding: 20px;
+}
+
+.info-box::after {
+  display: block;
+  content: '';
+  position: absolute;
+  padding-left: 4px;
+  width: 6px;
+  background-color: #355E6B;
+  height: 100%;
+  left: -10px;
+  top: 0;
+}
+
+.info-box__button {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 10px;
+}

@@ -85,6 +85,6 @@ pre {
 }
 
 a::-moz-selection {
-    color:rgba(33, 158, 44, 1);;
+    color:rgba(33, 158, 44, 1);
     background-color: rgba(33, 158, 44, 0.1);
 }

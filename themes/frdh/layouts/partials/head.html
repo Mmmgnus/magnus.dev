@@ -1,7 +1,8 @@
 <head>
+    <title>{{ .Title }} — Magnus.dev</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ .Params.intro }}">
     {{ $css := resources.Get "css/main.css" }}
     {{ $style := $css | resources.PostCSS }}
-    <link href="https://myCDN.com/prism@v1.x/themes/prism.css" rel="stylesheet" />
     <link href="{{ $style.Permalink }}" rel="stylesheet" />
 </head>

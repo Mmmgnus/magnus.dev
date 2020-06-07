@@ -11,6 +11,8 @@ Okey, so you have fucked up, maybe commit something to the wrong branch. No worr
 
 What you want to do is run the reset command:
 
-´git reset <sha1 of commit>´
+{{< terminal >}}
+git reset <sha1 of commit>
+{{< /terminal >}}
 
 You will not lose your changes.

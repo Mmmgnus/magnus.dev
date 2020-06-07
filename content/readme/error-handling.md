@@ -50,3 +50,4 @@ I really like the structure Bing and the [RFC7807 standard](https://tools.ietf.o
 - https://www.toptal.com/abap/clean-code-and-the-art-of-exception-handling
 - https://tools.ietf.org/html/rfc7807
 - https://nordicapis.com/best-practices-api-error-handling/
+- https://apisyouwonthate.com/blog/creating-good-api-errors-in-rest-graphql-and-grpc

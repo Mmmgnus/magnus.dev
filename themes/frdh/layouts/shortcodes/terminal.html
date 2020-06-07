@@ -1,3 +1,4 @@
-<div class="terminal">
-  {{ .Inner }}
+{{ $scope := default "$" (.Get "scope") }}
+<div class="terminal{{ if eq $scope "error"}} terminal--error{{end}}" {{ if ne $scope "error"}} data-scope="{{$scope}}"{{end}}>
+  {{ .Inner | safeHTMLAttr }}
 </div>

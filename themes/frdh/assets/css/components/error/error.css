@@ -1,0 +1,39 @@
+.error-box {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.error-box__block {
+  background-color: #EFF4EA;
+  padding-bottom: 20px;
+}
+
+.error-box::after {
+  display: block;
+  content: '';
+  position: absolute;
+  padding-left: 4px;
+  width: 6px;
+  background-color: #F17474;
+  height: 100%;
+  left: -10px;
+  top: 0;
+}
+
+.error-box--terminal .error-box__block {
+  padding-top: 0;
+}
+
+.error-box .inner {
+  padding: 0 20px;
+}
+
+.error-box__headline.error-box__headline  {
+  position: absolute;
+  top: 100%;
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: normal;
+  color: #546367;
+}

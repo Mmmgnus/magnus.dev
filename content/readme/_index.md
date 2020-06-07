@@ -29,8 +29,42 @@ My goal is to log all my problem and what the solution was. Like links they are 
 
 ### Visual & typography convensions
 
+#### Marked text
+Text that is {{<mark>}}marked with a yellow background is text that I think is very important or interesting to me{{</mark>}}. Usually after a second read some text may be marked.
+
+#### Code
+Code inlined in text paragrapg will look like `this`.
+
 #### Terminal input
 Inputs that should be done in a terminal.
 {{< terminal >}}
   mkdir my-project-name
 {{< /terminal >}}
+
+#### Info block
+Infoboxes for information that can be expanded and show more content.
+{{< info-box content="It’s possible to open Android Studio from the terminal with the command `android-studio`.">}}
+  {{< terminal >}}
+    mkdir my-project-name
+  {{< /terminal >}}
+{{< /info-box >}}
+
+#### Error block
+When I want to document any issue or problems on the way, I will put that information into one of these "Issue and solution" block.
+{{< error type="terminal">}}
+  {{< terminal >}}
+    mkdir my-project-name
+  {{< /terminal >}}
+
+  {{< error-content >}}
+  This error has something to do with a missing import. After some googling I found out that the version I had, `2.5.x` is not suported.
+
+  __Solution:__ Upgrade to version  `3.x.x`.
+  {{</ error-content>}}
+{{< /error >}}
+
+#### Blockquote
+Blockquotes for when I quote someone.
+{{< blockquote caption="Magnus Fredlundh, [magnus.dev](http://magnus.dev)" >}}
+  My collection of personal notes about my development journey in code and life; mostly in code.
+{{</ blockquote >}}

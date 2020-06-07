@@ -5,4 +5,7 @@
 @import 'components/sub-navigation/sub-navigation.css';
 @import 'components/introduction/introduction.css';
 @import 'components/social/social.css';
-@import 'scope/text/text.css'
+@import 'components/info-box/info-box.css';
+@import 'components/error/error.css';
+@import 'scope/text/text.css';
+@import url("//hello.myfonts.net/count/39902b");

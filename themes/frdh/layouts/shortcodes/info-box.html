@@ -1,0 +1,9 @@
+<div class="info-box">
+  <button class="info-box__button">Collapsed</button>
+  <div class="info-box__block">    
+    <p>{{ .Get "content" | markdownify }}</p>
+    <div class="info-box__more-content">
+      {{ .Inner }}
+    </div>
+  </div>
+</div>

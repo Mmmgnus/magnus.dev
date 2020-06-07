@@ -1,0 +1,6 @@
+<div class="error-box{{ with .Get "type"}} error-box--{{.}}{{ end }}" data-type="error">
+  <h4 class="error-box__headline">Issue and solution</h4>
+  <div class="error-box__block">
+    {{ .Inner | safeHTML }}
+  </div>
+</div>
