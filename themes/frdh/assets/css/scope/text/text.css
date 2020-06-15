@@ -26,6 +26,7 @@
 
 .text pre {
     background: rgba(0, 19, 25, 1);
+    margin: 2.72727rem 0;
 }
 
 .text pre code {
@@ -48,8 +49,9 @@
     font-weight: 500;
 }
 
-.intro {
+.intro p {
     font-size: 1.5em;
+    line-height: 1.455;
     font-weight: 200;
 }
 

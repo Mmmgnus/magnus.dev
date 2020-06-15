@@ -1,0 +1,26 @@
+{{ $parentType := .Parent.Name }}
+{{ $true := true }}
+
+{{ if eq $parentType "checklist" }}
+  {{if in .Params "checked" }}
+    <li class="checklist-item">
+      <span class="checklist-item__checkbox">
+        <svg width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M28.5 3.5C28.5 4.5 13.5 25.5 13.5 25.5C13.5 25.5 0 17.5 0 16.5C0 15.5 2 13.5 3 13.5C4 13.5 11.5 19.5 11.5 19.5C11.5 19.5 22.5 0 23.5 0C24.5 0 28.5 2.5 28.5 3.5Z"
+          fill="#219E2C" />
+        </svg>
+        <span class="visible-hidden">(Checked)</span>
+      </span>
+      {{- .Inner | markdownify }}
+    </li>
+  {{ else }}
+    <li class="checklist-item">
+      <span class="checklist-item__checkbox">
+        <span class="visible-hidden">(Unchecked)</span> 
+      </span>
+      {{- .Inner | markdownify }}
+    </li>
+  {{ end }}
+
+{{ end }}

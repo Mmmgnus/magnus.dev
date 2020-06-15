@@ -68,3 +68,10 @@ Blockquotes for when I quote someone.
 {{< blockquote caption="Magnus Fredlundh, [magnus.dev](http://magnus.dev)" >}}
   My collection of personal notes about my development journey in code and life; mostly in code.
 {{</ blockquote >}}
+
+#### Checklist
+Checklist like todos will be represented as an list with checkboxes.
+{{< checklist >}}
+  {{< item checked >}}A todo list item that is done!{{</ item>}}
+  {{< item >}}A todo list item that is __not__ done!{{</ item >}}
+{{</ checklist >}}

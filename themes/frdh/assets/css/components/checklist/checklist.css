@@ -1,0 +1,19 @@
+.checklist {
+  list-style: none;
+  margin: 2rem 0;
+  padding-left: 2.1818rem;
+}
+.checklist .checklist-item {
+  position: relative;
+  margin-left: 51px;
+  margin-bottom: 21px;
+}
+.checklist-item__checkbox {
+  position: absolute;
+  content: '';
+  background-color: #eee;
+  width: 27px;
+  height: 27px;
+  right: calc(100% + 24px);
+  top: calc(50% - (27px/2));
+ }
