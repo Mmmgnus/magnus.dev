@@ -13,9 +13,9 @@ intro: I have tried many different bookmark storing solutions, but I always forg
 ## Collection of links
 
 ### References
-- https://developer.mozilla.org
-- https://sites.google.com/a/rosendalsgymnasiet.se/gko/typografi/typografisk-ordlista
-- http://browserhacks.com/
+- {{<link url="https://developer.mozilla.org" title="developer.mozilla.org">}}Everthing about the web platform{{</ link>}}
+- {{<link url="https://sites.google.com/a/rosendalsgymnasiet.se/gko/typografi/typografisk-ordlista" title="Typografisk ordlista">}}Dictionary of words used in typography{{</ link>}}
+- {{<link url="http://browserhacks.com/" title="browserhacks.com">}}Browserhacks is an extensive list of browser specific CSS and JavaScript hacks from all over the interwebs{{</ link>}}
 
 ### Inspiration
 - https://tympanus.net/codrops/
