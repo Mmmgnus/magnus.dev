@@ -20,6 +20,7 @@ intro: I have tried many different bookmark storing solutions, but I always forg
 ### Inspiration
 - https://tympanus.net/codrops/
 - http://www.fantasticmaps.com/
+- https://coolors.co/
 
 ### Services
 - https://responsivevoice.org/
@@ -49,7 +50,8 @@ intro: I have tried many different bookmark storing solutions, but I always forg
 - https://popmotion.io/
 
 ### Typing
-- http://zty.pe/ Typing game
+- http://zty.pe/ Typing games
+- http://www.speedcoder.net/lessons/js/1/ Typing test with code and a heat map of errors.
 
 ### Fonts
 - https://www.itsnicethat.com/news/google-monotype-noto-type-family-061016?utm_source=facebook&utm_medium=social&utm_campaign=intsocial

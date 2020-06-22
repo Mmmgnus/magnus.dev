@@ -66,7 +66,7 @@ I had a problem with configuring ESLint in a newly created react app. I used cre
 
 My goal was to configure ESlint to use the "standard" code style. And by adding ESlint to the project manually, I got errors. Create-react-app already have ESlint and by adding it manually I introducing a lot of issues.
 
-My initial problem was that I did not know how run aslant in the project from the terminal. I found plenty of issues regarding this in the [GitHub repo](https://github.com/facebook/create-react-app/issues/1217) and it seems that their was as fix this in the making. But some people recommended to run it from en node_modules folder:
+My initial problem was that I did not know how run ESlint in the project from the terminal. I found plenty of issues regarding this in the [GitHub repo](https://github.com/facebook/create-react-app/issues/1217) and it seems that their was as fix this in the making. But some people recommended to run it from en node_modules folder:
 
 ```
 $ ./node_modules/.bin/eslint src
