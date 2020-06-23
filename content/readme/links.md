@@ -8,7 +8,6 @@ intro: I have tried many different bookmark storing solutions, but I always forg
 ## Guidelines
 * All links need a short description.
 * When a link isn't useful anymore, __remove it!__
-* Put links I need to visit in my TODO app (Things).
 
 ## Collection of links
 
@@ -51,7 +50,7 @@ intro: I have tried many different bookmark storing solutions, but I always forg
 
 ### Typing
 - http://zty.pe/ Typing games
-- http://www.speedcoder.net/lessons/js/1/ Typing test with code and a heat map of errors.
+- {{<link url="http://www.speedcoder.net/lessons/js/1/" title="Typing test/practice with code">}}Typing test with code and a heat map of errors.{{</ link>}}
 
 ### Fonts
 - https://www.itsnicethat.com/news/google-monotype-noto-type-family-061016?utm_source=facebook&utm_medium=social&utm_campaign=intsocial
@@ -62,7 +61,7 @@ intro: I have tried many different bookmark storing solutions, but I always forg
 - https://www.lakrits.se/
 
 ### Board games stuff
-- https://drive.google.com/drive/u/0/folders/0B8xlQYyEm7zMfndSdWZPdHpEYk1sZjctdWhwOThneF9ZR2Ryd21PZW9mbFZrNHVWR0RQeE0
+- {{<link url="https://drive.google.com/drive/u/0/folders/0B8xlQYyEm7zMfndSdWZPdHpEYk1sZjctdWhwOThneF9ZR2Ryd21PZW9mbFZrNHVWR0RQeE0" title="Vast: The Crystial Cavern (PnP)">}}Print and play resources for Vast: The Crystal Cavern{{</ link>}}
 
 ### Teckna
 - http://www.creativebloq.com/features/10-incredible-online-art-schools
