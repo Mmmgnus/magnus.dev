@@ -39,6 +39,9 @@ intro: I have tried many different bookmark storing solutions, but I always forg
 - https://invisionapp.com
 - https://jakearchibald.github.io/svgomg/
 
+### Deployment
+- {{<link url="https://ourcodeworld.com/articles/read/977/how-to-deploy-a-node-js-application-on-aws-ec2-server">}}How to deploy a node js application on was ec2{{</ link>}}
+- https://blog.cloudboost.io/setting-up-an-https-sever-with-node-amazon-ec2-nginx-and-lets-encrypt-46f869159469
 ### Development blogs
 - https://addyosmani.com/blog/
 - https://aerotwist.com/
@@ -47,6 +50,9 @@ intro: I have tried many different bookmark storing solutions, but I always forg
 - http://voxeljs.com/
 - http://blissfuljs.com/
 - https://popmotion.io/
+
+### Accessibility
+- {{<link url="https://inclusive-components.design/" title="inclusive-components.design">}}Contains great articles on how to create components like, toggle button, card accessible.{{</ link>}}
 
 ### Typing
 - http://zty.pe/ Typing games
