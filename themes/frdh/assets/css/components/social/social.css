@@ -3,10 +3,7 @@
     line-height: 1;
     padding:0;
     display: flex;
-    justify-content: center;
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
+    justify-content: flex-end;
 }
 .social > li {
     margin:0 8px;

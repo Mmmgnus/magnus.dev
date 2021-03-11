@@ -6,3 +6,4 @@ draft: false
 
 ## Links
 - {{<link url="https://github.com/kkshmz/whitefoxkey" title="github.com/kkshmz/whitefoxkey">}}Example on how to setup and install the whitefox keyboard{{</ link>}}
+- {{<link url="http://aoeu.info/s/dvorak/svorak" title="Svorak A1/A5">}}{{</link>}}
