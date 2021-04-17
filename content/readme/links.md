@@ -30,6 +30,7 @@ intro: I have tried many different bookmark storing solutions, but I always forg
 - http://www.bear-writer.com/
 
 ### Useful sites for development
+- {{<link url="https://frontendchecklist.io" title="frontendchecklist.io">}}The Front-end Checklist{{</link>}}
 - https://placeholder.com/
 - http://leaverou.github.io/contrast-ratio/
 - https://www.browserstack.com
@@ -40,8 +41,9 @@ intro: I have tried many different bookmark storing solutions, but I always forg
 - https://jakearchibald.github.io/svgomg/
 
 ### Deployment
-- {{<link url="https://ourcodeworld.com/articles/read/977/how-to-deploy-a-node-js-application-on-aws-ec2-server">}}How to deploy a node js application on was ec2{{</ link>}}
+- {{<link url="https://ourcodeworld.com/articles/read/977/how-to-deploy-a-node-js-application-on-aws-ec2-server" title="How to deploy a node js application on was ec2">}}{{</ link>}}
 - https://blog.cloudboost.io/setting-up-an-https-sever-with-node-amazon-ec2-nginx-and-lets-encrypt-46f869159469
+
 ### Development blogs
 - https://addyosmani.com/blog/
 - https://aerotwist.com/
@@ -62,6 +64,9 @@ intro: I have tried many different bookmark storing solutions, but I always forg
 - https://www.itsnicethat.com/news/google-monotype-noto-type-family-061016?utm_source=facebook&utm_medium=social&utm_campaign=intsocial
 - https://google-webfonts-helper.herokuapp.com/fonts
 - https://github.com/source-foundry/Hack
+
+### Icons
+- {{<link url="https://heroicons.com" title="heroicons.com">}}Icon library from the creators of TailwindCSS{{</link>}}
 
 ### Lakrits
 - https://www.lakrits.se/

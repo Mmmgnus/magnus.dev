@@ -1,7 +1,6 @@
 ---
 title: "Git"
 date: 2020-05-12T19:48:22+02:00
-draft: true
 Intro: What is Git? and how to master it in the terminal.
 ---
 
@@ -15,4 +14,4 @@ What you want to do is run the reset command:
 git reset <sha1 of commit>
 {{< /terminal >}}
 
-You will not lose your changes.
+You will **not** lose your changes.
