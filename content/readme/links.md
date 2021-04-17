@@ -24,6 +24,9 @@ intro: I have tried many different bookmark storing solutions, but I always forg
 ### Services
 - https://responsivevoice.org/
 
+### Live Coding platforms & services
+- https://codeshare.io/
+
 ### Tools
 - https://setapp.com/apps
 - https://getkap.co/
@@ -39,6 +42,7 @@ intro: I have tried many different bookmark storing solutions, but I always forg
 - https://www.cssfontstack.com/
 - https://invisionapp.com
 - https://jakearchibald.github.io/svgomg/
+- https://realfavicongenerator.net/
 
 ### Deployment
 - {{<link url="https://ourcodeworld.com/articles/read/977/how-to-deploy-a-node-js-application-on-aws-ec2-server" title="How to deploy a node js application on was ec2">}}{{</ link>}}

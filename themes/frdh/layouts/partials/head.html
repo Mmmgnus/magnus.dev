@@ -4,5 +4,7 @@
     <meta name="description" content="{{ .Params.intro }}">
     {{ $css := resources.Get "css/main.css" }}
     {{ $style := $css | resources.PostCSS }}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet"> 
     <link href="{{ $style.Permalink }}" rel="stylesheet" />
 </head>
